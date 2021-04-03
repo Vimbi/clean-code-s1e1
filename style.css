@@ -37,14 +37,18 @@
 .add-wrapper {
   display: flex;
 }
-.incomplete, .completed {
+.incomplete,
+.completed {
   margin: 0;
   padding: 0px;
 }
-.incomplete-elem, .completed-elem, .title {
+.incomplete-elem,
+.completed-elem,
+.title {
   list-style: none;
 }
-.input,.button{
+.input,
+.button{
   outline: none;
 }
 .button {
@@ -99,7 +103,8 @@
 }
 
 /* Task list */
-.incomplete-elem, .completed-elem {
+.incomplete-elem,
+.completed-elem {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -108,7 +113,8 @@
   justify-content: space-between;
   align-items: center;
 }
-.incomplete-elem > *, .completed-elem > * {
+.incomplete-elem > *,
+.completed-elem > * {
   vertical-align: middle;
 }
 
@@ -143,7 +149,8 @@
 }
 
 /* Edit Task */
-.completed .input-text, .incomplete .input-text {
+.completed .input-text,
+.incomplete .input-text {
   display: none;
 }
 
